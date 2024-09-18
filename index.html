@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Halo</h1>
+        <button id="changeText">Klik</button>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#changeText").click(function(){
+                $("h1").text("Saya Muh Farhan Mahasiswa Teknik Informatika Universitas Hasanuddin");
+            });
+        });
+    </script>
+
+</body>
+</html>
